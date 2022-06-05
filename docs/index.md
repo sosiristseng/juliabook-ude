@@ -1,16 +1,3 @@
-# Welcome to your Jupyter Book
+# DiffEqFlux.jl and Universal Differential Equations (UDEs)
 
-This is a small sample book to give you a feel for how book content is
-structured.
-
-:::{note}
-Here is a note!
-:::
-
-And here is a code block:
-
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
+[DiffEqFlux.jl](https://github.com/SciML/DiffEqFlux.jl) is a High Level Pre-Built Architectures for Implicit Deep Learning.
