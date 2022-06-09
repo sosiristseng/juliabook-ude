@@ -161,3 +161,6 @@ docs/site/
 # environment.
 # Manifest.toml
 LocalPreferences.toml
+
+# Generated files
+*.mp4
