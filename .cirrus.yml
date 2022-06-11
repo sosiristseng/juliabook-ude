@@ -10,9 +10,8 @@ jupyter_book_task:
     fingerprint_script:
       - cat Project.toml
       - cat Manifest.toml
-  install_script: |
-    julia --threads=auto --project=@. --color=yes -e 'import Pkg; Pkg.instantiate()'
-    julia --threads=auto --project=@. --color=yes build.jl
+    populate_script: julia --threads=auto --project=@. --color=yes -e 'import Pkg; Pkg.instantiate()'
+  install_script: julia --threads=auto --project=@. --color=yes build.jl
   build_script: |
     jupyter-book build docs -v
   # pages_script: |
