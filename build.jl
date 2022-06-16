@@ -4,7 +4,7 @@ import Pkg
 nthreads = Threads.nthreads()
 
 using IJulia
-kernelpath = IJulia.installkernel(
+IJulia.installkernel(
     "Julia",
     "--project=@.";
     env=Dict("JULIA_NUM_THREADS" => "$(nthreads)",)
